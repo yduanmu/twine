@@ -15,30 +15,31 @@
     font-family: 'Amatic SC', sans-serif;
     font-size: 2.5vw;
     text-decoration: none;
-  	padding: 3%;
+  	padding: 2%;
 }
 
-tw-link, .enchantment-link{
+a, tw-link, .enchantment-link{
   color: #4A4040;
   font-weight: bold;
   text-decoration: none;
   line-height: 30%;
 }
-tw-link:hover,  .enchantment-link:hover{
+a:hover, tw-link:hover,  .enchantment-link:hover{
   text-decoration: underline;
   color: #4A4040;
 }
 
-.visited{
+.visited, a.visited{
   color: #4A4040;
 }
-.visited:hover{
+.visited:hover, a.visited:hover{
   text-decoration: underline;
   color: #4A4040;
 }
 
-.dream:visited{
-  color: #BAA2A2;
+tw-link.danger{
+  color: #C44A41;
+  font-weight: bold;
 }
 
 .danger{
@@ -54,35 +55,42 @@ tw-link:hover,  .enchantment-link:hover{
 
 .control-box{
   display: flex;
+  width: 50%;
 }
 
 .push-box{
   margin-left: auto;
 }
 
-.image{
-    height: 50%;
+.box .image{
     width: 50%;
+    height: auto;
 }
 
 @media only screen and (max-width: 1000px){
-    .image{
-        height: 70%;
-        width: 70%;
-    }
-    body, tw-story{
-        font-size: 3.5vw;
-    }
+  .box .image{
+    width: 70%;
+    height: auto;
+  }
+  body, tw-story{
+    font-size: 3.5vw;
+  }
+  .control-box{
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width: 500px){
-    .image{
-        height: 75%;
-        width: 75;
-    }
-    body, tw-story{
-        font-size: 4vw;
-    }
+  .box .image{
+    width: 75%;
+    height: auto;
+  }
+  body, tw-story{
+    font-size: 4vw;
+  }
+  .control-box{
+    width: 75%;
+  }
 }</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="b3" tags="" position="575,300" size="100,100">{
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -145,7 +153,344 @@ tw-link:hover,  .enchantment-link:hover{
     &lt;/body&gt;
 
 &lt;/html&gt;
-}</tw-passagedata><tw-passagedata pid="4" name="s20" tags="" position="637.5,425" size="100,100"></tw-passagedata><tw-passagedata pid="5" name="s30" tags="" position="762.5,425" size="100,100"></tw-passagedata><tw-passagedata pid="6" name="s40" tags="" position="450,550" size="100,100"></tw-passagedata><tw-passagedata pid="7" name="s50" tags="" position="575,550" size="100,100"></tw-passagedata><tw-passagedata pid="8" name="s60" tags="" position="700,550" size="100,100"></tw-passagedata><tw-passagedata pid="9" name="s11" tags="" position="575,800" size="100,100"></tw-passagedata></tw-storydata>
+}</tw-passagedata><tw-passagedata pid="4" name="s20" tags="" position="637.5,425" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;Never had it. What does the cold taste like?&lt;/div&gt;
+            &lt;div class=&quot;control-box&quot;&gt;
+            	&lt;div&gt;[[&lt;- back -&gt;b3]]&lt;/div&gt;
+                &lt;div class=&quot;push-box&quot;&gt;[[look -&gt;s21]]&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="5" name="s30" tags="" position="762.5,425" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;Punch it ‘till you can’t.&lt;/div&gt;
+            &lt;div class=&quot;control-box&quot;&gt;
+            	&lt;div&gt;[[&lt;- back -&gt;b3]]&lt;/div&gt;
+                &lt;div class=&quot;push-box&quot;&gt;[[punch -&gt;s31]]&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="6" name="s40" tags="" position="450,550" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;I need to study for the exam.&lt;/div&gt;
+            &lt;div class=&quot;control-box&quot;&gt;
+            	&lt;div&gt;[[&lt;- back -&gt;b3]]&lt;/div&gt;
+                &lt;div class=&quot;push-box&quot;&gt;[[study -&gt;s41]]&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="7" name="s50" tags="" position="575,550" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;Don&#39;t touch that.&lt;/div&gt;
+            &lt;div class=&quot;control-box&quot;&gt;
+            	&lt;div&gt;[[&lt;- back -&gt;b3]]&lt;/div&gt;
+                &lt;div class=&quot;push-box&quot;&gt;[[touch -&gt;s51]]&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="8" name="s60" tags="" position="700,550" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;I&#39;m still dreaming.&lt;/div&gt;
+            &lt;div class=&quot;control-box&quot;&gt;
+            	&lt;div&gt;[[&lt;- back -&gt;b3]]&lt;/div&gt;
+                &lt;div class=&quot;push-box&quot;&gt;[[wake -&gt;e2]]&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="9" name="s11" tags="" position="600,775" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;When everything’s a nail…&lt;/div&gt;
+            &lt;div class=&quot;control-box&quot;&gt;
+            	&lt;div&gt;[[&lt;- back -&gt;b3]]&lt;/div&gt;
+                &lt;div class=&quot;push-box&quot;&gt;[[insect -&gt;s12]]&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="10" name="s12" tags="" position="725,850" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;When everything’s a nail…&lt;/div&gt;
+            &lt;div class=&quot;control-box&quot;&gt;
+            	&lt;div&gt;[[&lt;- back -&gt;b3]]&lt;/div&gt;
+                &lt;div class=&quot;push-box&quot;&gt;[[hand -&gt;b3]]&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="11" name="s21" tags="" position="762.5,675" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;It&#39;s melting.&lt;/div&gt;
+            &lt;div class=&quot;control-box&quot;&gt;
+            	&lt;div&gt;[[&lt;- back -&gt;b3]]&lt;/div&gt;
+                &lt;div class=&quot;push-box&quot;&gt;[[look -&gt;s22]]&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="12" name="s22" tags="" position="887.5,800" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;I wonder what it would have tasted like….&lt;/div&gt;
+            &lt;div&gt;[[&lt;- back -&gt;b3]]&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="13" name="s31" tags="" position="887.5,550" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;Keep going.&lt;/div&gt;
+            &lt;div class=&quot;control-box&quot;&gt;
+            	&lt;div&gt;[[&lt;- back -&gt;b3]]&lt;/div&gt;
+                &lt;div class=&quot;push-box&quot;&gt;[[punch -&gt;s32]]&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="14" name="s32" tags="" position="925,675" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;Sand hurts.&lt;/div&gt;
+            &lt;div&gt;[[&lt;- back -&gt;b3]]&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="15" name="s41" tags="" position="450,675" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;I should keep studying.&lt;/div&gt;
+            &lt;div class=&quot;control-box&quot;&gt;
+            	&lt;div&gt;[[&lt;- back -&gt;b3]]&lt;/div&gt;
+                &lt;div class=&quot;push-box&quot;&gt;[[study -&gt;s42]]&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="16" name="s42" tags="" position="450,800" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;The exam shouldn&#39;t be hard.&lt;/div&gt;
+            &lt;div&gt;[[&lt;- back -&gt;b3]]&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="17" name="s51" tags="" position="575,925" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div class=&quot;danger&quot;&gt;It&#39;s going to break.&lt;/div&gt;
+            &lt;div class=&quot;control-box&quot;&gt;
+            	&lt;div&gt;[[&lt;- back -&gt;b3]]&lt;/div&gt;
+                &lt;div class=&quot;push-box danger&quot;&gt;[[touch -&gt;e1]]&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="18" name="e1" tags="" position="575,1050" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;[[continue -&gt; -&gt;f1]]&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="19" name="e2" tags="" position="700,1050" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;A nightmare….&lt;/div&gt;
+            &lt;div&gt;[[continue -&gt; -&gt;b3]]&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata><tw-passagedata pid="20" name="f1" tags="" position="575,1175" size="100,100">{
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+    	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Amatic+SC&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;title&gt;Good Morning&lt;/title&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+    	&lt;div class=&quot;box&quot;&gt;
+            &lt;img class=&quot;image&quot; src=&quot;https://yduanmu.github.io/twine/images/b1.gif&quot; width=&quot;1000&quot; height=&quot;798&quot;&gt;
+            &lt;div&gt;&lt;a href=&quot;https://yduanmu.github.io/twine/&quot;&gt;return&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+}</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
